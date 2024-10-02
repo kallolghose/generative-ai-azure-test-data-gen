@@ -1,0 +1,40 @@
+node_modules/*
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+test-data-gen-ui/node_modules/*
+test-data-gen-ui/.pnp
+test-data-gen-ui/.pnp.js
+test-data-gen-ui/.yarn/install-state.gz
+
+# testing
+test-data-gen-ui/coverage/*
+
+# next.js
+test-data-gen-ui/.next/*
+test-data-gen-ui/out/*
+
+# production
+test-data-gen-ui/build/*
+
+# misc
+test-data-gen-ui/.DS_Store
+test-data-gen-ui/*.pem
+
+# debug
+test-data-gen-ui/npm-debug.log*
+test-data-gen-ui/yarn-debug.log*
+test-data-gen-ui/yarn-error.log*
+
+# local env files
+test-data-gen-ui/.env*.local
+
+# vercel
+test-data-gen-ui/.vercel
+
+# typescript
+test-data-gen-ui/*.tsbuildinfo
+test-data-gen-ui/next-env.d.ts
+
+gen-ai/azure-gen-ai/*
